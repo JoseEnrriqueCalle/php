@@ -18,7 +18,11 @@
         }
         return true;
     }
+    function generarPrimos($cantidad)
+    {
 
+
+    }
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (isset($_POST['elementos']) && is_numeric($_POST['elementos']) && $_POST['elementos'] > 0) {
             $elementos = $_POST['elementos'];
